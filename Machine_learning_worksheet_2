@@ -1,0 +1,34 @@
+1. C
+2. B
+3. C
+4. A
+5. B
+6. A,D
+7. B,C
+8. 
+9.
+10. 
+11. Ridge regression: adds “squared magnitude” of coefficient as penalty term to the loss function. 
+    Lasso Regression: (Least Absolute Shrinkage and Selection Operator) adds “absolute value of magnitude” of coefficient as penalty term to       the loss function.
+12. A variance inflation factor(VIF) detects multicollinearity in regression analysis. Multicollinearity is when there’s correlation between     predictors (i.e. independent variables) in a model. The VIF estimates how much the variance of a regression coefficient is inflated         due to multicollinearity in the model.
+    Variance inflation factors range from 1 upwards. The numerical value for VIF tells you (in decimal form) what percentage the variance       (i.e. the standard error squared) is inflated for each coefficient. For example, a VIF of 1.9 tells you that the variance of a               particular coefficient is 90% bigger than what you would expect if there was no multicollinearity — if there was no correlation with         other predictors.
+    A rule of thumb for interpreting the variance inflation factor:
+
+    1 = not correlated.
+    Between 1 and 5 = moderately correlated.
+    Greater than 5 = highly correlated.
+    Exactly how large a VIF has to be before it causes issues is a subject of debate. What is known is that the more your VIF increases, the     less reliable your regression results are going to be. In general, a VIF above 10 indicates high correlation and is cause for concern.       Some authors suggest a more conservative level of 2.5 or above.
+
+13.Many machine learning algorithms require that features are on the same scale; for example, if we compute distances such as in nearest        neighbor algorithms. Also, optimization algorithms such as gradient descent work best if our features are centered at mean zero with a      standard deviation of one — i.e., the data has the properties of a standard normal distribution.
+14. Mean Squared Error(MSE),
+    Root Mean Squared Error(RMSE),
+    Mean Absolute error(MAE),
+    R square,
+    Adjusted R square.
+15. Precision= 0.9523,
+    Recall = 0.8
+    Accuracy = 0.88
+    Specificity = 0.96
+    Sensitivity = 0.952
+
+    
