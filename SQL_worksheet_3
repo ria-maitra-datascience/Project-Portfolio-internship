@@ -1,0 +1,24 @@
+1. CREATE TABLE Customers( customerNumber int, customerName varchar(255), contactLastName varchar(255), contactFirstName varchar(255), phone int, addressLine1 varchar(255), addressLine2 varchar(255), city varchar(255), state varchar(255), postalCode int, country varchar(255), salesRepEmployeeNumber int, creditLimit int);
+
+2. CREATE TABLE Orders( orderNumber int, orderDate date, requiredDate date, shippedDate date, status varchar(255), comments varchar(255), customerNumber int);
+
+3. SELECT orderNumber, orderDate, requiredDate, shippedDate, status, comments, customerNumber FROM Orders;
+
+4. SELECT comments FROM Orders;
+
+5. 
+
+6.  SELECT employeNumber, lastName, firstName FROM employees
+
+7.  SELECT orderNumber, customerName FROM 
+
+8.  SELECT a.customerName, b.firstName FROM customers a, INNER JOIN employees b;
+
+9.  SELECT paymentDate, amount FROM payments;
+
+10.  SELECT productName, MSRP, productDescription FROM products.
+
+11.  SELECT employeeNumber, firstName+" "+lastName AS EmployeeName FROM employees;
+
+
+
