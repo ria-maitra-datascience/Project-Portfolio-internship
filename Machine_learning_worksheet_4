@@ -1,0 +1,31 @@
+1. A
+2. A
+3. B
+4. A
+5. A
+6. A
+7. D
+8. B
+
+10. Randrom Forest are obust to outliers.Works well with non-linear data and has lower risk of overfitting. It runs efficiently on a large dataset. Where as Decision trees are prone to overfitting.It can be quite large, thus making pruning necessary.Can’t guarantee optimal trees.
+
+
+11. The gradient descent algorithm which is used to reach the optomal solution in most of the cases, it reached the optimal solution much faster if all the features are at the same scale. That;s why scaling helps to reach the optimal solution.
+If the features in the training dataset are on different scales, then during training the features with large scales will be favoured over there in order to minimise the loss. That's why we do scaling to puts all the features on the same scale.
+      The most common techniques used for scaling are normalization and standardization.
+
+
+12. It is easier to fit into memory due to a single training sample being processed by the network.It is computationally fast as only one sample is processed at a time.For larger datasets it can converge faster as it causes updates to the parameters more frequently.
+
+
+13. Accuracy is used when the True Positives and True negatives are more important while F1-score is used when the False Negatives and False Positives are crucial.Accuracy can be used when the class distribution is similar while F1-score is a better metric when there are imbalanced classes as in the above case.In most real-life classification problems, imbalanced class distribution exists and thus F1-score is a better metric to evaluate our model on.
+
+
+14. The F-score, also called the F1-score, is a measure of a model’s accuracy on a dataset. It is used to evaluate binary classification systems, which classify examples into ‘positive’ or ‘negative’.The F-score is a way of combining the precision and recall of the model, and it is defined as the harmonic mean of the model’s precision and recall.The F-score is commonly used for evaluating information retrieval systems such as search engines, and also for many kinds of machine learning models, in particular in natural language processing.It is possible to adjust the F-score to give more importance to precision over recall, or vice-versa. Common adjusted F-scores are the F0.5-score and the F2-score, as well as the standard F1-score.
+
+
+15. fit() : used for generating learning model parameters from training data
+
+transform() : parameters generated from fit() method,applied upon model to generate transformed data set.
+
+fit_transform() : combination of fit() and transform() api on same data set
