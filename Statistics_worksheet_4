@@ -1,0 +1,36 @@
+1. a
+2. a
+3. b
+4. d
+5. c
+6. b
+7. b
+8. a
+9. c
+
+10.
+Norma Distribution:
+--The normal distribution is a probability function that describes how the values of a variable are distributed.
+--It is symmetrical in nature.
+--68% of the values fall within 1 std of the mean.
+--95% of the values fall within 2 std of the mean.
+--99.7% of the values fall within 3 std of the mean.
+
+11.
+Missing Data Handling:
+If the number of null values are very less, we can drop the null values. Otherwise mean can replace it with mean or mrdian of the data if the data is numeric in nature. Mode is used if the data is categorical in nature.
+
+12.
+A/B testing (also known as bucket testing or split-run testing) is a user experience research methodology. [1] A/B tests consist of a randomized experiment with two variants, A and B. It includes application of statistical hypothesis testing or "two-sample hypothesis testing" as used in the field of statistics. A/B testing is a way to compare two versions of a single variable, typically by testing a subject's response to variant A against variant B, and determining which of the two variants is more effective.
+
+13.
+Mean imputation of missing data is acceptable only if their is no outliers present in the data. Otherwise it will hugely affect the mean of the data resulting in biased data.
+
+14.
+In statistics, linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is called multiple linear regression.This term is distinct from multivariate linear regression, where multiple correlated dependent variables are predicted, rather than a single scalar variable.
+
+15.
+Two branches od Statistics:
+--Descriptive Statistics: It decribes the central tendencies of a given data like mean, meadian, mode etc.Descriptive statistics helps to understan the type of data and hence helps to make decisions accordingly.
+
+--Inferencial Statistics: Here immediate data is not available to us. For example if want to find the mean of an entire population, we simply take samples and infere population mean from samples. Hypothesis testing is one of them.
