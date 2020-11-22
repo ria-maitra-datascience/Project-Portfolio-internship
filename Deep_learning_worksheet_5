@@ -1,0 +1,10 @@
+1. D
+2. 
+3. B
+4. A
+5. A
+6. C
+7. C
+8. A
+
+12. When we optimize neural networks or any high dimensional function, for most of the trajectory we optimize, the critical points(the points where the derivative is zero or close to zero) are saddle points
