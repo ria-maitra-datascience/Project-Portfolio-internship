@@ -1,5 +1,20 @@
 ## Micro Credit Project
-
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# importing all the necessary libraries\n",
+    "\n",
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "\n",
+    "import matplotlib.pyplot as plt\n",
+    "%matplotlib inline"
+   ]
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
