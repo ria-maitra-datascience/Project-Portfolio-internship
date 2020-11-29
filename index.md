@@ -1,4 +1,6 @@
 ## Micro Credit Project
+![image](https://user-images.githubusercontent.com/66596902/100545045-d1fa2880-327f-11eb-84b6-8b44c5c9e71c.png)
+
 {
  "cells": [
   {
