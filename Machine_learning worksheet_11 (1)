@@ -1,0 +1,26 @@
+1. B
+2. A
+3. A
+4. C
+5. C
+6. A
+7. B
+8. C
+9. D
+10. A,C
+11. A
+12. R square: 
+         R Squared is used to determine the strength of correlation between the predictors and the target. In simple terms it lets us know how good a regression model is when compared to the average. R Squared is the ratio between the residual sum of squares and the total sum of squares.
+         
+     Adjusted R square:
+         The adjusted R-squared is a modified version of R-squared that has been adjusted for the number of predictors in the model. The adjusted R-squared increases only if the new term improves the model more than would be expected by chance. It decreases when a predictor improves the model by less than expected by chance.
+
+13. Cost function:
+     It is a function that measures the performance of a Machine Learning model for given data. Cost Function quantifies the error between predicted values and expected values and presents it in the form of a single real number. Depending on the problem Cost Function can be formed in many different ways. 
+
+15. Mean Absolute Error
+    Mean Squared Error
+    Root Mean Squared Error:
+    R squared
+    Adjusted R - squared
+
